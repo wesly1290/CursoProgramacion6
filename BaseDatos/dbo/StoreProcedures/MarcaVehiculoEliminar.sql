@@ -9,7 +9,7 @@ BEGIN
 	BEGIN TRY 
 
 	DELETE FROM MarcaVehiculo
-	WHERE MarcaVehiculoId = @MarcaVehiculoId	
+	WHERE MarcaVehiculoId = @MarcaVehiculoId
 
 	 COMMIT TRANSACTION TRASA
 
